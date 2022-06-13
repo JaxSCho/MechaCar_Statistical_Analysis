@@ -20,7 +20,7 @@ A multiple linear regression analysis was performed to identify which variables 
 
 The linear regression model for our dataset would be:
 
-'MPG = 6.267(vehicle_length) + 0.001245(vehicle_weight) + 0.06877(spoiler_angle) + 3.546(ground_clearance) - 3.411(AWD) - 104'
+```MPG = 6.267(vehicle_length) + 0.001245(vehicle_weight) + 0.06877(spoiler_angle) + 3.546(ground_clearance) - 3.411(AWD) - 104```
 
 According to our results, vehicle length (p < 0.001) and ground clearance (p < 0.001) are statistically unlikely to provide random amoount of variance to the mpg values in the dataset at the 95% significance level since their indivdual variable p-values are less than 0.05. 
 
@@ -38,7 +38,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 Overall, the PSI variance of all 150 suspension coils across all the manufacturing lots (62.29 pounds per square inch) is below 100 pounds per square inch and therefore, meets this design specification. However, when we examine the PSI variance of the suspension coils by manufacturing lots (see figure 3 below), only two lots - lots 1 and 2 specifically - meet the design specifications (i.e. 0.980 pounds per square inch and 7.470 pounds per square inch respectively). With a PSI variance of 170.286 pounds per square inch, the suspension coils in lot 3 did not meet this design specification.
 
-![image](hhttps://user-images.githubusercontent.com/99936542/173271534-d7bf40cb-6388-463f-abab-aeba5f9f7e43.png)
+![image](https://user-images.githubusercontent.com/99936542/173273409-9998d09e-6bb7-486c-ad65-7b0dd019f3b2.png)
 
 <b>Fig.3 - Summary Statistics on Suspension Coils by Manufacturing Lot</b>
 
