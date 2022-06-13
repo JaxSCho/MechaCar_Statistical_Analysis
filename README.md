@@ -68,7 +68,7 @@ The mean suspension coil PSI for Lot 2 was 1,500.2 pounds per square inch. Since
 
 <b>Fig.7 - One-Sample t-test for Lot 3</b>
 
-The mean suspension coil PSI for Lot 3 was 1,496.14 pounds per square inch. Since the p-value = 0.042 is lower than our significance level of 0.05, we do not have sufficient evidence to reject the null hypothesis. Therefore, the mean suspension coil PSI for Lot 3 is statistically different from the population mean of 1,500 pounds per square inch at the 95% significance level.
+The mean suspension coil PSI for Lot 3 was 1,496.14 pounds per square inch. Since the p-value = 0.042 is lower than our significance level of 0.05, we have sufficient evidence to reject the null hypothesis. Therefore, the mean suspension coil PSI for Lot 3 is statistically different from the population mean of 1,500 pounds per square inch at the 95% significance level.
 
 ## Study Design: MechaCar vs Competition
 
