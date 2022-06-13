@@ -44,7 +44,31 @@ Overall, the PSI variance of all 150 suspension coils across all the manufacturi
 
 ## T-Tests on Suspension Coils
 
-summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summar
+We performed one-sample t-tests at the 95% significance level to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. The null hypothesis for these t-tests is that there is no statistical difference between the various observered sample mean suspension coil PSI and the population mean PSI of 1,500 pounds per square inch.
+
+![image](https://user-images.githubusercontent.com/99936542/173273537-6bf36af2-e599-4423-a734-a1e8fdd501a0.png)
+
+<b>Fig.4 - One-Sample t-test for all manufacturing lots</b>
+
+The overall mean suspension coil PSI for all manufacturing lots was 1,498.78 pounds per square inch. Since p-value = 0.060, which is above our significance level of 0.05, we do not have sufficient evidence to reject the null hypothesis and therefore, the overall mean suspension coil PSI is statistically similar to the populationo mean of 1,500 per pounds per square inch at the 95% significance level.
+
+![image](https://user-images.githubusercontent.com/99936542/173273547-8a8f7d01-5f37-44e9-b23e-6ca3deb8ad6d.png)
+
+<b>Fig.5 - One-Sample t-test for Lot 1</b>
+
+The mean suspension coil PSI for Lot 1 was 1,500 pounds per square inch. Since p-value = 1.0, which is above our significance level of 0.05, we do not have sufficient evidence to reject the null hypothesis and therefore, the mean suspension coil PSI for Lot 1 is statistically similar to the populationo mean of 1,500 per pounds per square inch at the 95% significance level.
+
+![image](https://user-images.githubusercontent.com/99936542/173273558-dfa7f515-1210-4d85-9612-51843c7c3866.png)
+
+<b>Fig.6 - One-Sample t-test for Lot 2</b>
+
+The mean suspension coil PSI for Lot 2 was 1,500.2 pounds per square inch. Since p-value = 0.607, which is above our significance level of 0.05, we do not have sufficient evidence to reject the null hypothesis and therefore, the mean suspension coil PSI for Lot 2 is statistically similar to the populationo mean of 1,500 per pounds per square inch at the 95% significance level.
+
+![image](https://user-images.githubusercontent.com/99936542/173273571-e7bb82a4-d7af-4da1-975d-c224acf4063a.png)
+
+<b>Fig.7 - One-Sample t-test for Lot 3</b>
+
+The mean suspension coil PSI for Lot 3 was 1,496.14 pounds per square inch. Since p-value = 0.042, which is lower our significance level of 0.05, we do have sufficient evidence to reject the null hypothesis and therefore, the mean suspension coil PSI for Lot 3 is statistically different to the populationo mean of 1,500 per pounds per square inch at the 95% significance level.
 
 ## Study Design: MechaCar vs Competition
 
