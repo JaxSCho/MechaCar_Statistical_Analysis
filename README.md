@@ -8,7 +8,7 @@ In this analysis, we complete the following tasks:
 - Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
 - Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
 - Run t-tests to determine if the manufacturing lots are statistically different from the mean population
-- Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+- Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. 
 
 ## Linear Regression to Predict MPG
 
@@ -72,9 +72,23 @@ The mean suspension coil PSI for Lot 3 was 1,496.14 pounds per square inch. Sinc
 
 ## Study Design: MechaCar vs Competition
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+Since a single attribute doesn't make a vehicle truly great by itself, many factors should be considered when determining vehicle performance such as road test performance, reliability, owner satisfaction, and safety. Some performance metrics that could be tested include: horse power, fuel efficiency, purchase cost, maintenance cost, owner satisfaction ratings, and safety ratings. We will focus on a few metrics that influence consumer safety for this potential study.
 
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+In order to design a statistical study to compare the consumer safety performance of MechaCar vehicles against performance of vehicles from other manufacturers, the following questions must be addressed:
+
+- What metric or metrics are you going to test? 
+
+Some metrics that can be easily quantifed for vehicle performance relevant to consumer safety that we could test include safety ratings and defective units/recall rates. Manufacturers should strive to keep recall rates low to in order to keep consumers safe as well as mitigate the costs that are associated with product recalls along with potential bad press that comes along with recalls, which may deter consumers from buying products from companies with high recall rates.
+
+- What is the null hypothesis or alternative hypothesis?
+
+    - For the safety ratings metric -- The null hypothesis would be there is no statistical difference between safety ratings means from MechaCar and the other manufacturers, while the alternative hypothesis would be that there is a statistical difference between safety rating means from MechaCar and the other manufacturers.
+    - For the defective units/recall rates metric -- The null hypothesis would be there is no statistical difference between the mean defective units/recall rates from MechaCar and the other manufacturers, while the alternative hypothesis would be that there is a statistical difference between the mean defective units/recall rates from MechaCar and the other manufacturers.
+
+- What statistical test would you use to test the hypothesis? And why?
+
+Assuming MechaCar has multiple competitors, I would use ANOVA statistical test to test these hypotheses since these metric means would be compared between MechaCar vehicles and other manufacturers. One could perform numerous two-sample t-tests to test the hypotheses by comparing MechaCar metrics to each competitor metrics one at a time. However, using multiple two-sample t-test would be less efficient than running one ANOVA test to compare all manufacturers. Plus you could gain additional information about metric comparisons between manufacturers other than MechaCar.
+
+- What data is needed to run the statistical test?
+ 
+To run this statistical test, I woould need a dataset that contains safety ratings and defective units/recall rates for comparative vehicles from MechaCar and other manufacturers at the minimum. Any additional variables about vehicle features, such as vehicle type, consumer satisfaction ratings, etc. could be benefical for future analysis since many determinants could affect the relationship between a vehicle's manufacturer and its performance metrics. 
